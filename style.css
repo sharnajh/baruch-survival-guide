@@ -1,0 +1,108 @@
+/* Font from Dafont.com */
+@font-face {
+  font-family:schoolface;
+  src: url('fonts/schoolface.ttf')
+
+}
+
+/* Cursor from totallyfreecursors.com */
+html {
+  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/pencil.cur"), url("http://downloads.totallyfreecursors.com/thumbnails/pencil.gif"), auto;
+}
+
+body {
+background-image: url('images/bg.jpg');
+background-attachment: fixed;
+font-family:schoolface;
+text-transform:uppercase;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #f44e42;
+}
+
+a:hover {
+  text-decoration:line-through;
+}
+
+h1, h2, h3, h4 {
+  text-align:center;
+}
+
+h1 {
+  font-size:100px;
+  margin:0px;
+}
+
+h2 {
+  font-size:60px;
+}
+
+h3 {
+  font-size:45px;
+}
+
+p {
+  font-size:40px;
+  padding:10px;
+}
+
+
+.bearcat {
+  width:200px;
+}
+
+.bearcat:hover {
+    -webkit-filter: invert(100%);
+    filter: hue-rotate(90deg);
+}
+
+nav {
+  font-size: 30px;
+  text-align: center;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+hr {
+  margin-bottom:0;
+  margin-top:30px;
+  height:2px;
+  background-color:black;
+}
+
+#container {
+  width: 60%;
+  height:auto;
+  background-image: url('images/paper.png');
+  margin:auto;
+  padding:15px;
+}
+
+#container img {
+  max-width:90%;
+}
+
+.vans {
+  width:90%;
+  margin:0;
+}
+
+.vans:hover {
+  filter:sepia(100%);
+  transition:all 0.5s;
+}
+
+.app {
+  width:40%;
+  padding:10px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
